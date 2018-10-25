@@ -29,10 +29,10 @@ public class randomDeck {
 		Collections.shuffle(originalDeck);
 		System.out.println(originalDeck);
 		
-		int i=0, max = 0;
 		Collections.sort(originalDeck);
 		
 		//Long Implementation
+		int i=0, max = 0;
 		while (originalDeck.size() != 0) {
 			max = originalDeck.size();
 			i = (int) (Math.random() * max); // goes from 0 to size-1 so always in bounds
