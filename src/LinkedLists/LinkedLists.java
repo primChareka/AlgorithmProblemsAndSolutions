@@ -2,7 +2,7 @@ package LinkedLists;
 
 import java.util.LinkedList;
 
-import TestCases.ReadInputs;
+import TestInputFiles.ReadInputs;
 
 class LinkedLists {
 
