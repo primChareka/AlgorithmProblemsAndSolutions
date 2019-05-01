@@ -50,6 +50,9 @@ public class Rainwater {
 		
 		int[] array3 = {1,0,1}; //should be 1
 		System.out.println(trap(array3, 0));
+		
+		int[] array4 = {3,0,0,2,0,4}; //should be 10
+		System.out.println(trap(array4, 0));
 
 	}
 }
